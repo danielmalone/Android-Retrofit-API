@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SOAnswersResponse {
 
-    @SerializedName("items")
+    @SerializedName("mDataset")
     @Expose
     private List<Item> items = null;
     @SerializedName("has_more")
